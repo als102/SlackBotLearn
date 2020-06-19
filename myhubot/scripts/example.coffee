@@ -8,7 +8,7 @@
 #
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
-module.exports = (robot) ->
+#module.exports = (robot) ->
 
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
@@ -104,3 +104,15 @@ module.exports = (robot) ->
   # robot.respond /sleep it off/i, (res) ->
   #   robot.brain.set 'totalSodas', 0
   #   res.reply 'zzzzz'
+
+ #//robot.http("https://midnight-train")
+  #//  .header('Accept', 'application/json')
+   # .get() (err, res, body) ->
+      # error checking code here
+
+   #   data = JSON.parse body
+   #   res.send "#{data.passenger} taking midnight train going #{data.destination}"
+
+     
+
+
